@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "algorithm.c"
+#include "pointer.c"
 
-int main() {
+int main()
+{
 
-    printf("==== Learning Algorithm using C  ====\n");
+    printf("==== Learning Pointers using C  ====\n");
 
-    learnPointer();
+    arrayAsFunctionArgument();
     
     return 0;
 }
