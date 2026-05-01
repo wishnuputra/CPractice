@@ -151,15 +151,28 @@ void arrayOfPointers()
     }
 }
 
-/**** Arrays as function arguments ****/
+/**** arrays as function arguments ****/
 void printArray(int arr[], int size);
-int sumOfArray(int arr[]);
+int sumOfArray(int arr[], size_t size);
+int totalArray(int arr[]);
+void modifyArray(int* arr, size_t size);
 
 void arrayAsFunctionArgument()
 {
     int arr[5] = {1, 2, 3, 4, 5};
-    // printArray(arr, 5); // Passing the array to the function
-    sumOfArray(arr); 
+    // printArray(arr, 5);
+    size_t array_size = sizeof(arr) / sizeof(arr[0]);
+    printf("Size of the array is: %ld\n", array_size);
+    
+    int sum = sumOfArray(arr, array_size);
+    printf("Sum of the array is: %d\n", sum);
+
+    int total = totalArray(arr);
+    printf("Total of the array is: %d\n", total);
+
+    modifyArray(arr, array_size);
+    printf("Array after modification:\n");
+    printArray(arr, array_size);
 }
 
 void printArray(int arr[], int size) // Function that takes an array as an argument
@@ -170,15 +183,34 @@ void printArray(int arr[], int size) // Function that takes an array as an argum
     }
 }
 
-int sumOfArray(int arr[])
+int sumOfArray(int arr[], size_t size) // Function that takes an array as an argument and returns the sum of its elements
 {
     int sum = 0;
-    size_t array_size = sizeof(arr) / sizeof(arr[0]);
-    for (size_t i = 0; i < array_size; i++)
+    for (size_t i = 0; i < size; i++)
     {
-        sum += arr[i]; // This will add the value of each element of the array to the sum
+        sum += arr[i];
     }
-    return sum; // This will return the sum of the elements of the array
+    return sum;
 }
+
+int totalArray(int arr[])
+{
+    int total = 0;
+    // size_t size = sizeof(arr) / sizeof(arr[0]);
+    // for (size_t i = 0; i < size; i++)
+    // {
+    //     total += arr[i];
+    // }
+    return total;
+}
+
+void modifyArray(int* arr, size_t size) // Function that takes an array as an argument and modifies its elements
+{
+    for (size_t i = 0; i < size; i++)
+    {
+        arr[i] += 10; // This will add 10 to each element of the array
+    }
+}
+/**** end of arrays as function arguments ****/
 
 
