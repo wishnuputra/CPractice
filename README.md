@@ -1,1 +1,1 @@
-This repository contain study material of C Pointer
+#This repository contain study material of C Pointer
