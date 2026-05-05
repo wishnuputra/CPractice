@@ -7,7 +7,7 @@ int main()
 
     printf("==== Learning Pointers using C  ====\n");
 
-    characterArrayAndPointer();
+    passingArrayAsArgument();
     
     return 0;
 }
