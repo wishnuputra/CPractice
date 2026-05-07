@@ -1,5 +1,5 @@
 `vim file_name.c` open a file using vim<br>
-vim works with modes
+Vim works with modes. When we enter vim, we are in the normal mode.
 
 ## 1. Command Mode
 `:` is to enter command mode<br>
