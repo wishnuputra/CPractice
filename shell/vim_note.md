@@ -28,4 +28,5 @@ Pressing these buttons below in the normal mode will enter into **insert mode**.
 Video 17:24
 <br>
 References:<br>
-https://www.markdownguide.org/basic-syntax/
+[Vim Tutorial](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=WL&index=2&t=957s&pp=iAQBsAgC)<br>
+[Mark Down Guide](https://www.markdownguide.org/basic-syntax/)<br>
