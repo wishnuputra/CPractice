@@ -31,6 +31,8 @@ They are a permission<br>
 `-` is a file<br>
 `l` is a link<br>
 
+## 2. Basic File Editing
+
 References:<br>
 [Learn Linux TV](https://www.youtube.com/watch?v=MnY0K-3_Fjk&list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ&index=4&t=907s)
 
