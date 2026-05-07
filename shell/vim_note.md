@@ -15,8 +15,11 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 
 Pressing these buttons below in the normal mode will enter into **insert mode**.<br>
 `i` insert text before the cursor<br>
-`a` insert text after the cursor<br>
-`o` insert text in the new line<br>
+`a` insert text after the cursor (appending)<br>
+`o` insert text in the new line (opening)<br>
+
+`Shift + i` insert text at the beginning of the line<br>
+`Shift + a` insert text at the end of the line<br>
 
 `Esc` pressing excape will bring you back to the **normal mode**.<br>
 
