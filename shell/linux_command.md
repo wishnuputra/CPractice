@@ -8,7 +8,7 @@
 `clear` or `ctrl + l` to clear the screen<br>
 
 `ls -l` list the contents of a directory in a long list format and provide detail information of each file<br>
-`ls -l /home` long list your home directory
+`ls -l /home` long list your home directory<br>
 `pwd` print working directory or your current directory<br>
 The sign `~$` means you are on the home directory<br>
 
