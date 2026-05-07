@@ -1,4 +1,6 @@
-# 1. File System Navigation
+# Linux Terminal
+
+## 1. File System Navigation
 
 `ls` list storage<br>
 `ls /` lists the contents of your Root Directory<br>
