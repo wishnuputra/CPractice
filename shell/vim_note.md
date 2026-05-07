@@ -9,12 +9,15 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 `:w` write or save changes to the file
 `:wq` write and then quit
 
-`:! + terminal command` is used to execute linux terminal command inside vim. For example `!ls` will execute the linux `ls` command
+`:! + terminal command` is used to execute linux terminal command inside vim. For example `:!ls` will execute the linux `ls` command<br>
 
 ## 2. Insert Mode
 
-`i` insert text after
-`a` insert text before
+Pressing these buttons below in the normal mode will enter into **insert mode**.<br>
+`i` insert text after<br>
+`a` insert text before<br>
+
+`Esc` pressing excape will bring you back to the **normal mode**.<br>
 
 <br>
 References:<br>
