@@ -32,6 +32,16 @@ They are a permission<br>
 `l` is a link<br>
 
 ## 2. Basic File Editing
+`touch file_name` creates a file<br>
+if you use `touch` on a file that already exist, it will recreate the file with the same content<br>
+`cat` read, display, and concatenate a text file<br>
+
+### Nano File Editor
+
+`nano` open a text editor<br>
+`nano file_name.txt` open a new file. If we save, it will creates the file<br>
+`ctrl + o` write or save the changes<br>
+`ctrl + x` exit<br>
 
 References:<br>
 [Learn Linux TV](https://www.youtube.com/watch?v=MnY0K-3_Fjk&list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ&index=4&t=907s)
