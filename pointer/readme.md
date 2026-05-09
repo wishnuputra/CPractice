@@ -2,7 +2,8 @@
 
 How memory is assign to a program or application in a typical memory architecture. This memory allocation is devided into four segments.<br>
 <img width="218" height="437" alt="image" src="https://github.com/user-attachments/assets/9bf6f74b-e7a1-4e7a-af85-26c0d804c6ee" />
-
+Anything stored on the stack will be automatically cleared after the stack frame is completed.<br>
+Meanwhile any variable stored on the Heap will not automatically cleared. It is the responsibility of the programmer to free the memory if it is not used anymore.
 
 The three segments: `Text`, `Global`, and `Stack` do not grow during the lifetime of the program<br>
 
@@ -18,7 +19,7 @@ In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.<br>
 ```
 void dynamicMemoryAllocation()
 {
-    int *ptr = (int *)malloc(sizeof(int));
+    int *ptr = (int *)malloc(sizeof(int)); // We use type casting, because malloc return void pointer
     if (ptr == NULL)
     {
         printf("Memory allocation failed\n");
