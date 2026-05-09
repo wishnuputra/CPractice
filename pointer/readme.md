@@ -29,7 +29,7 @@ Deallocate memory:<br>
 ```
 void free(void *memblock);
 ```
-
+Example:<br>
 ```
 void dynamicMemoryAllocation()
 {
