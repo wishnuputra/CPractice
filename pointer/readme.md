@@ -18,6 +18,18 @@ In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.<br>
 
 If `malloc` can not find free memroy in the Heap, it will reutrn `null`. Therefore we need to handle this situation.
 
+Allocating memory in the heap:<br>
+```
+void *malloc(size_t size);
+void *calloc(size_t number, size_t size);
+void *realloc(void *memblock, size_t size);
+```
+
+Deallocate memory:<br>
+```
+void free(void *memblock);
+```
+
 ```
 void dynamicMemoryAllocation()
 {
