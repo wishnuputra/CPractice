@@ -1,6 +1,8 @@
 # 1. Dynamic Memory
 
-<img width="483" height="376" alt="image" src="https://github.com/user-attachments/assets/9b09ba05-1e93-4117-bba5-a435cb33836c" />
+How memory is assign to a program or application in a typical memory architecture. This memory allocation is devided into four segments.<br>
+<img width="218" height="437" alt="image" src="https://github.com/user-attachments/assets/9bf6f74b-e7a1-4e7a-af85-26c0d804c6ee" />
+
 
 The three segments: `Text`, `Global`, and `Stack` do not grow during the lifetime of the program<br>
 
@@ -10,7 +12,9 @@ When stack reached maximum limit it is called *stackoverflow* and the program wi
 
 <img width="1569" height="633" alt="image" src="https://github.com/user-attachments/assets/75fe4d76-5069-4988-9fec-7bcc8b5275d4" />
 
-In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.
+In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.<br>
+`malloc` in C is a standard library function `stdlib.h` used to dynamically allocate a specific number of bytes on the heap during runtime. It returns a `void*` pointer to the allocated memory, which must be freed using `free()` to prevent memory leaks.
+
 ```
 void dynamicMemoryAllocation()
 {
