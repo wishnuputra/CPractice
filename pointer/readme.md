@@ -14,7 +14,9 @@ When stack reached maximum limit it is called *stackoverflow* and the program wi
 <img width="1569" height="633" alt="image" src="https://github.com/user-attachments/assets/75fe4d76-5069-4988-9fec-7bcc8b5275d4" />
 
 In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.<br>
-`malloc` in C is a standard library function `stdlib.h` used to dynamically allocate a specific number of bytes on the heap during runtime. It returns a `void*` pointer to the allocated memory, which must be freed using `free()` to prevent memory leaks.
+`malloc` in C is a standard library function `stdlib.h` used to dynamically allocate a specific number of bytes on the heap during runtime. It returns a `void*` pointer to the allocated memory, which must be freed using `free()` to prevent memory leaks.<br>
+
+If `malloc` can not find free memroy in the Heap, it will reutrn `null`. Therefore we need to handle this situation.
 
 ```
 void dynamicMemoryAllocation()
