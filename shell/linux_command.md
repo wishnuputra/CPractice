@@ -46,6 +46,7 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 ## 3. File Management
 
 `cp` copy a file onto target file. example: `cp file_name.txt target_file.txt`<br>
+`diff` show differences between two files. example `diff file_one.cpp file_two.cpp`<br>
 
 
 
