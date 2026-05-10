@@ -1,6 +1,9 @@
 # 1. Dynamic Memory
 
-<img width="483" height="376" alt="image" src="https://github.com/user-attachments/assets/9b09ba05-1e93-4117-bba5-a435cb33836c" />
+How memory is assign to a program or application in a typical memory architecture. This memory allocation is devided into four segments.<br>
+<img width="218" height="437" alt="image" src="https://github.com/user-attachments/assets/9bf6f74b-e7a1-4e7a-af85-26c0d804c6ee" />
+Anything stored on the stack will be automatically cleared after the stack frame is completed.<br>
+Meanwhile any variable stored on the Heap will not automatically cleared. It is the responsibility of the programmer to free the memory if it is not used anymore.
 
 The three segments: `Text`, `Global`, and `Stack` do not grow during the lifetime of the program<br>
 
@@ -10,11 +13,27 @@ When stack reached maximum limit it is called *stackoverflow* and the program wi
 
 <img width="1569" height="633" alt="image" src="https://github.com/user-attachments/assets/75fe4d76-5069-4988-9fec-7bcc8b5275d4" />
 
-In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.
+In order to use heap, C uses `malloc`, `calloc`, `realloc`, `free`.<br>
+`malloc` in C is a standard library function `stdlib.h` used to dynamically allocate a specific number of bytes on the heap during runtime. It returns a `void*` pointer to the allocated memory, which must be freed using `free()` to prevent memory leaks.<br>
+
+If `malloc` can not find free memroy in the Heap, it will reutrn `null`. Therefore we need to handle this situation.
+
+Allocating memory in the heap:<br>
+```
+void *malloc(size_t size);
+void *calloc(size_t number, size_t size);
+void *realloc(void *memblock, size_t size);
+```
+
+Deallocate memory:<br>
+```
+void free(void *memblock);
+```
+Example:<br>
 ```
 void dynamicMemoryAllocation()
 {
-    int *ptr = (int *)malloc(sizeof(int));
+    int *ptr = (int *)malloc(sizeof(int)); // We use type casting, because malloc return void pointer
     if (ptr == NULL)
     {
         printf("Memory allocation failed\n");
