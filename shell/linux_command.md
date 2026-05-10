@@ -45,6 +45,10 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 
 ## 3. File Management
 
+`cp` copy a file onto target file. example: `cp file_name.txt target_file.txt`<br>
+
+
+
 
 References:<br>
 [Learn Linux TV](https://www.youtube.com/watch?v=MnY0K-3_Fjk&list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ&index=4&t=907s)
