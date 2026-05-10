@@ -43,6 +43,9 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 `ctrl + o` write or save the changes<br>
 `ctrl + x` exit<br>
 
+## 3. File Management
+
+
 References:<br>
 [Learn Linux TV](https://www.youtube.com/watch?v=MnY0K-3_Fjk&list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ&index=4&t=907s)
 
