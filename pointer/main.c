@@ -9,7 +9,7 @@ int main()
 
     printf("==== Learning Pointers using C  ====\n");
 
-    arrayMalloc();
+    passByReference();
     
     return 0;
 }
