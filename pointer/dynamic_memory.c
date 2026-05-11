@@ -111,5 +111,42 @@ void passByReference()
 
 }
 
+int *addRefTwo(int* a, int* b) // Called function
+{
+        // a and b are pointers to integer
+        printf("Adds - Address of pointer a: %p, b: %p\n", &a, &b);
+        printf("Adds - value stored in pointer a: %p, b: %p\n", a, b);
+        printf("Adds - value stored in address pointed by pointer a: %d, b: %d\n", *a, *b);
+
+	int c;
+       	c = *a + *b;
+        return &c; // this will cause error as addRefTwo will be erased from the stack frame, creating dangling pointer
+}
+
+int *addRefThree(int* a, int* b) // Called function
+{
+        // a and b are pointers to integer
+        printf("Adds - Address of pointer a: %p, b: %p\n", &a, &b);
+        printf("Adds - value stored in pointer a: %p, b: %p\n", a, b);
+        printf("Adds - value stored in address pointed by pointer a: %d, b: %d\n", *a, *b);
+
+        int *c = (int*)malloc(sizeof(int)); // now it is safe to return this pointer, since c lives in the heap
+        *c = *a + *b;
+        return c;
+}
+
+
+void passByReferenceTwo()
+{
+        int a = 2;
+        int b = 4;
+
+        printf("Main - Address of a: %p, b: %p\n", &a, &b);
+        int *sum = addRefThree(&a, &b); // Call by reference
+        int total = addRef(&a, &b);
+	printf("Sum is: %d\n", *sum);
+
+}
+
 
 

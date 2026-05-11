@@ -9,7 +9,7 @@ int main()
 
     printf("==== Learning Pointers using C  ====\n");
 
-    passByReference();
+    passByReferenceTwo();
     
     return 0;
 }
