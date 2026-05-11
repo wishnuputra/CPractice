@@ -72,5 +72,8 @@ Pointer: 0x56a560d196b0
 Value: 100
 Pointer: 0x56a560d196b0
 ```
+
+<img width="1085" height="477" alt="image" src="https://github.com/user-attachments/assets/73a062c6-91d1-42e2-a767-db074fe399da" />
+
 Reference
 1. [Pointer in C](https://www.youtube.com/watch?v=zuegQmMdy8M&list=WL&index=9&t=8099s)
