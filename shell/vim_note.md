@@ -12,7 +12,7 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 
 `:! + terminal command` is used to execute linux terminal command inside vim. For example `:!ls` will execute the linux `ls` command<br>
 
-`number + arrow key up or down` will bring the cursor up or down n times.
+`number + arrow key` will bring the cursor up, down, left, or right n times.
 
 ## 2. Insert Mode
 
