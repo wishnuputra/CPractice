@@ -10,7 +10,7 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 `:wq` write and then quit<br>
 
 `:set number` activate line number<br>
-`:set relative number` activate line number relative to the cursor position<br>
+`:set relativenumber` activate line number relative to the cursor position<br>
 `h` `j` `k` `l` moves cursor left, down, up, right<br>
 
 
