@@ -53,6 +53,7 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 `mv *.txt folder` move all files with .txt extension into the folder<br>
 `mv test.txt ..` move the file one directory behind<br>
 `mv ../test.txt .` move a file from one directory behind to current directory<br>
+`mv testOne.txt testTwo.txt` rename a file. If the new file name is already exist, it will be overwritten<br>
 
 
 
