@@ -9,13 +9,7 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 `:w` write or save changes to the file<br>
 `:wq` write and then quit<br>
 
-`:set number` activate line number<br>
-`:set relativenumber` activate line number relative to the cursor position<br>
-`set mouse=a` activate mouse cursor<br>
-`h` `j` `k` `l` moves cursor left, down, up, right<br>
-`set tabstop=n` set the tab identation spacing<br>
-`set shiftwidth=n` set the shift width by n
-`colorscheme slat` change the color scheme<br>
+
 
 
 
@@ -36,6 +30,19 @@ Pressing these buttons below in the normal mode will enter into **insert mode**.
 `Shift + o` insert text above the line<br>
 
 `Esc` pressing excape will bring you back to the **normal mode**.<br>
+
+## 3. Configuring Vim
+
+`:set number` activate line number<br>
+`:set relativenumber` activate line number relative to the cursor position<br>
+`set mouse=a` activate mouse cursor<br>
+`h` `j` `k` `l` moves cursor left, down, up, right<br>
+`set tabstop=n` set the tab identation spacing<br>
+`set shiftwidth=n` set the shift width by n<br>
+`colorscheme slat` change the color scheme<br>
+
+### How to save the configuration we made
+`vi ~/.vimrc`
 
 Video 17:24
 <br>
