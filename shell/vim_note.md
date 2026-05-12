@@ -11,6 +11,7 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 
 `:set number` activate line number<br>
 `:set relativenumber` activate line number relative to the cursor position<br>
+`set mouse=a` activate mouse cursor
 `h` `j` `k` `l` moves cursor left, down, up, right<br>
 
 
