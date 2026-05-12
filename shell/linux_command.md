@@ -51,7 +51,8 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 `mkdir` make new directory or folder<br>
 `mv` move a file into a folder. example `mv test.txt folder`<br>
 `mv *.txt folder` move all files with .txt extension into the folder<br>
-`mv test.txt ..` move the file one directory above<br>
+`mv test.txt ..` move the file one directory behind<br>
+`mv ../test.txt .` move a file from one directory behind to current directory<br>
 
 
 
