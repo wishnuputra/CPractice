@@ -49,6 +49,7 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 `diff` show differences between two files. example `diff file_one.cpp file_two.cpp`<br>
 `rm` removes file. Be careful with this command, because it will removes file <mark>permanently<mark><br>
 `mkdir` make new directory or folder<br>
+`mv` move a file into a folder. example `mav test.txt folder`<br>
 
 
 
