@@ -13,6 +13,7 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 `:set relativenumber` activate line number relative to the cursor position<br>
 `set mouse=a` activate mouse cursor<br>
 `h` `j` `k` `l` moves cursor left, down, up, right<br>
+`set tabstop=n` set the tab identation spacing<br>
 
 
 
