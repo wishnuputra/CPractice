@@ -44,7 +44,7 @@ Pressing these buttons below in the normal mode will enter into **insert mode**.
 ### How to save the configuration we made
 `vi ~/.vimrc`
 
-Video 17:24
+Video 24:32
 <br>
 References:<br>
 [Vim Tutorial](https://www.youtube.com/watch?v=RZ4p-saaQkc&list=WL&index=2&t=957s&pp=iAQBsAgC)<br>
