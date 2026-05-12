@@ -8,6 +8,7 @@ Vim works with modes. When we enter vim, we are in the normal mode.<br>
 `:q!` force quit vim without saving<br>
 `:w` write or save changes to the file<br>
 `:wq` write and then quit<br>
+`:set number` activate line number<br>
 
 `:! + terminal command` is used to execute linux terminal command inside vim. For example `:!ls` will execute the linux `ls` command<br>
 
