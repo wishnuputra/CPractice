@@ -64,6 +64,11 @@ BASH - Bourne Again Shell<br>
 
 Files that start with dot will be hidden. For example `.cache`<br>
 
+<img width="651" height="22" alt="image" src="https://github.com/user-attachments/assets/0f996bda-ce42-4bcf-803f-b905572beed4" /><br>
+
+
+
+
 
 
 
