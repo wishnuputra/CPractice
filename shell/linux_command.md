@@ -74,6 +74,9 @@ Adding alises in `.bashrc` file<br>
 <img width="380" height="66" alt="image" src="https://github.com/user-attachments/assets/ab94f4b9-008d-44f1-9de1-a0ab8bf96657" />
 
 `unalias` will unable an alias. However it will be restored back when you restart the terminal<br>
+<img width="292" height="26" alt="image" src="https://github.com/user-attachments/assets/d2ab6de1-5ec4-44b4-9fa7-048de97b361b" /> will show today weather<br>
+
+
 
 
 
