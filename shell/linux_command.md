@@ -55,6 +55,10 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 `mv ../test.txt .` move a file from one directory behind to current directory<br>
 `mv testOne.txt testTwo.txt` rename a file. If the new file name is already exist, it will be overwritten<br>
 
+## 4. Bash Configuration
+
+BASH - Bourne Again Shell<br>
+`ls - a` show all files in the directory including hidden files<br>
 
 
 
