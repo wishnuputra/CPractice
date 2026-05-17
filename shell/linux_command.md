@@ -65,8 +65,15 @@ Files that start with dot are hidden. For example `.cache`<br>
 `.bashrc` is a configuration file for the bash<br>
 <img width="651" height="22" alt="image" src="https://github.com/user-attachments/assets/0f996bda-ce42-4bcf-803f-b905572beed4" /><br>
 
+### Alias
+
 Adding alises in `.bashrc` file<br>
 <img width="241" height="121" alt="image" src="https://github.com/user-attachments/assets/273ad61d-1b68-4eec-9141-cfd95e2f7e99" />
+
+`alias` will show all the alias you currently set in the terminal<br>
+<img width="380" height="66" alt="image" src="https://github.com/user-attachments/assets/ab94f4b9-008d-44f1-9de1-a0ab8bf96657" />
+
+
 
 
 Personal Notes:
