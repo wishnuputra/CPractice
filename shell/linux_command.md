@@ -73,10 +73,12 @@ Adding alises in `.bashrc` file<br>
 `alias` will show all the alias you currently set in the terminal<br>
 <img width="380" height="66" alt="image" src="https://github.com/user-attachments/assets/ab94f4b9-008d-44f1-9de1-a0ab8bf96657" />
 
+`unalias` will unable an alias. However it will be restored back when you restart the terminal<br>
 
 
 
-Personal Notes:
+## Personal Notes:
+
 `apt search package_name` will check if a certain package is available on APT<br>
 
 
