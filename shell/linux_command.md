@@ -59,7 +59,9 @@ if you use `touch` on a file that already exist, it will recreate the file with 
 
 BASH - Bourne Again Shell<br>
 `ls - a` show all files in the directory including hidden files<br>
-<img width="295" height="73" alt="image" src="https://github.com/user-attachments/assets/77d7c360-0ccb-4967-9d01-7e9f2296c8a4" />
+
+<img width="295" height="73" alt="image" src="https://github.com/user-attachments/assets/77d7c360-0ccb-4967-9d01-7e9f2296c8a4" /><br>
+
 Files that start with dot will be hidden. For example `.cache`<br>
 
 
