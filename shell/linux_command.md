@@ -97,7 +97,10 @@ Now using `>>` this will append the output result into file<br>
 
 ### Chain Command
 
-
+```
+ls -l | grep 'txt'
+```
+Using pipe `|` will list only a line that contain `txt`<br>
 
 ## Personal Notes:
 
