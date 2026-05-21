@@ -112,7 +112,8 @@ cat file.txt | sort | uniq
 This will sort the output from cat command then will only show uniqe occurence.
 <img width="516" height="342" alt="image" src="https://github.com/user-attachments/assets/118ecf8c-912f-459a-b4b5-98f2b236aff2" />
 
-
+Tips: In the command line, > and | do completely different things. Use > to save output to a file, and use | (pipe) to send output to another command.<br>
+The > symbol takes the result of a command and writes it directly to a file. It acts as a bridge between the command and the filesystem.<br>
 
 ## Personal Notes:
 
