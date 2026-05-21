@@ -65,8 +65,8 @@ Files that start with dot are hidden. For example `.cache`<br>
 `.bashrc` is a configuration file for the bash<br>
 <img width="651" height="22" alt="image" src="https://github.com/user-attachments/assets/0f996bda-ce42-4bcf-803f-b905572beed4" /><br>
 
-`~/.bashrc` Editing .bashrc file in home directory will affect only to cuurent user<br>
-`/etc/skel/.bashrc` This is the template .bashrc. Editing this .bashrc will affect the whole user<br>
+`~/.bashrc` Editing .bashrc file in home directory will affect only to current user<br>
+`/etc/skel/.bashrc` This is the template .bashrc. Editing the .bashrc in this skel directory will affect the whole user<br>
 
 ### Alias
 
