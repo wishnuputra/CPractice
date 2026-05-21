@@ -103,7 +103,7 @@ ls -l | grep 'txt'
 Using pipe `|` will list only a line that contain `txt`<br>
 What really happen is we taking the output of `ls -l` command and chaining it as an input to `grep` command then output it to the monitor<br>
 
-<div style="border: 2px solid #007acc; padding: 15px; border-radius: 5px;">
+<div style="border: 2px solid #FFFFFF; padding: 15px; border-radius: 5px;">
 In Bash, a pipe (represented by the | operator) connects the standard output (stdout) of one command directly to the standard input (stdin) of the next command. This allows you to string multiple simple utilities together into a cohesive data-processing pipeline without saving intermediate data to temporary files.<br>
 </div>
 
