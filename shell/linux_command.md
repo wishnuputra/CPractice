@@ -107,6 +107,11 @@ What really happen is we taking the output of `ls -l` command and chaining it as
 In Bash, a pipe (represented by the | operator) connects the standard output (stdout) of one command directly to the standard input (stdin) of the next command. This allows you to string multiple simple utilities together into a cohesive data-processing pipeline without saving intermediate data to temporary files.<br>
 </div>
 
+<div style="border: 2px solid #007acc; padding: 15px; border-radius: 5px;">
+  This text is surrounded by a solid blue border.
+</div>
+
+
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
