@@ -81,7 +81,11 @@ Adding alises in `.bashrc` file<br>
 
 ## 5. Output Redirection
 
-`ls -l > file.txt` will output the result of `ls -l` into the file.txt instead into the monitor.
+```
+ls -l > file.txt
+```
+will output the result of `ls -l` into the file.txt instead into the monitor<br>
+**Warning** this will overwrite the file.txt if it was there already<br>
 
 
 
