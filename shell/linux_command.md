@@ -101,6 +101,7 @@ Now using `>>` this will append the output result into file<br>
 ls -l | grep 'txt'
 ```
 Using pipe `|` will list only a line that contain `txt`<br>
+What really happen is we taking the output of `ls -l` command and chaining it as an input to `grep` command then output it to the monitor<br>
 
 ## Personal Notes:
 
