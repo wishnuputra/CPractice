@@ -87,6 +87,11 @@ ls -l > file.txt
 will output the result of `ls -l` into the file.txt instead into the monitor<br>
 **Warning** this will overwrite the file.txt if it was there already<br>
 
+```
+ls -l >> file.txt
+```
+Now this will append the output result into file<br>
+
 
 
 ## Personal Notes:
