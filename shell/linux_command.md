@@ -81,6 +81,9 @@ Adding alises in `.bashrc` file<br>
 
 ## 5. Output Redirection
 
+`>`, `<`, `>>`, `<<` are the symbol for output redirection <br>
+
+### Redirect output to a file
 ```
 ls -l > file.txt
 ```
@@ -91,6 +94,8 @@ will output the result of `ls -l` into the file.txt instead into the monitor<br>
 ls -l >> file.txt
 ```
 Now using `>>` this will append the output result into file<br>
+
+### Chain Command
 
 
 
