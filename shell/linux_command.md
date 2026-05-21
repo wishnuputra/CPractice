@@ -106,13 +106,14 @@ What really happen is we taking the output of `ls -l` command and chaining it as
 #### Tips
 In Bash, a pipe (represented by the | operator) connects the standard output (stdout) of one command directly to the standard input (stdin) of the next command. This allows you to string multiple simple utilities together into a cohesive data-processing pipeline without saving intermediate data to temporary files.<br>
 
+I ran `ls -l / >> filte.txt` multiple times to create multiple occurances in the `file.txt`<br>
 ```
 cat file.txt | sort | uniq
 ```
 This will sort the output from cat command then will only show uniqe occurence.
 <img width="516" height="342" alt="image" src="https://github.com/user-attachments/assets/118ecf8c-912f-459a-b4b5-98f2b236aff2" />
 
-Previously I ran `ls -l / >> filte.txt` multiple times to create the `file.txt`<br>
+
 
 ## Personal Notes:
 
