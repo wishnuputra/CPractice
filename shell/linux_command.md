@@ -112,6 +112,8 @@ cat file.txt | sort | uniq
 This will sort the output from cat command then will only show uniqe occurence.
 <img width="516" height="342" alt="image" src="https://github.com/user-attachments/assets/118ecf8c-912f-459a-b4b5-98f2b236aff2" />
 
+Previously I ran `ls -l / >> filte.txt` multiple times to create the `file.txt`<br>
+
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
