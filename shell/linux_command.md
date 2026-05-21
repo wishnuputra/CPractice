@@ -79,7 +79,9 @@ Adding alises in `.bashrc` file<br>
 `unalias` will unable an alias. However it will be restored back when you restart the terminal<br>
 <img width="292" height="26" alt="image" src="https://github.com/user-attachments/assets/d2ab6de1-5ec4-44b4-9fa7-048de97b361b" /> will show today weather<br>
 
+## 5. Output Redirection
 
+`ls -l > file.txt` will output the result of ls -l into the file.txt instead into the monitor.
 
 
 
