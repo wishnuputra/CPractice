@@ -173,8 +173,12 @@ In order to use this variable, we need to use `$` in fron of the variable<br>
 ```
 echo "Hi this is  $HELLO_MSG"
 ```
-
 <img width="879" height="49" alt="image" src="https://github.com/user-attachments/assets/9b2f5c72-a445-4d8f-9abf-4831d13ff4b4" />
+```
+MY_DIR="/etc"
+ls $MY_DIR
+```
+This will print the directory etc using the variable<br>
 
 
 ## Personal Notes:
