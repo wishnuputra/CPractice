@@ -185,6 +185,11 @@ This will print the directory etc using the variable<br>
 `env` will print the variables on this session<br>
 <img width="582" height="171" alt="image" src="https://github.com/user-attachments/assets/019233c8-82e1-495c-bffd-029abaf33014" />
 
+```
+export my_var="home sweet home"
+```
+Now the variable that we just saved appears in the `env` session<br>
+
 
 ## Personal Notes:
 
