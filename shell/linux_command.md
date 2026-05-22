@@ -124,9 +124,18 @@ To avoid command being saved in the history: Type space before typing the comman
 
 ## 7. Stream
 ```
+find / -name *.log 
+```
+The command above will find in root directory all files that has .log extension. However because we do not have access to root, it will print a lot of errors. Below are the result of executing this command.<br>
+<img width="1155" height="283" alt="image" src="https://github.com/user-attachments/assets/ce5b69d8-f85e-4602-b64d-09c3f7a82856" />
+
+To avoid seeing all these errors and just see the result that we have access to, we can redirects the errors to `/dev/null`
+```
 find / -name *.log 2> /dev/null
 ```
-The command above will find in root directory all files that has .log extension, then I want to capture standard error and redirect it to `/dev/null`
+Executing this command will give clean result<br>
+<img width="727" height="117" alt="image" src="https://github.com/user-attachments/assets/96a34ffa-b646-48de-ba34-c4e67767b97c" />
+
 
 ## Personal Notes:
 
