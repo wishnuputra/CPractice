@@ -117,7 +117,8 @@ In the command line, > and | do completely different things. Use > to save outpu
 The > symbol takes the result of a command and writes it directly to a file. It acts as a bridge between the command and the filesystem.<br>
 
 ## 6. History
-'history' This command will show all the commands that we have entered.
+`history` This command will show all the commands that we have entered.<br>
+To avoid command being saved in the history: Type space before typing the command
 
 ## Personal Notes:
 
