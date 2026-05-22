@@ -161,6 +161,16 @@ find / -name *.log 1> successSecond.txt 2> errorSecond.txt
 `echo $?` will print the result value of the command that we have just executed. 0 means successfull. Any other value means failed.
 
 ## 8 Variables
+
+```
+HELLO_MSG="Hello World"
+```
+This will assign the literals `Hello World`into the variable `HELLO_MSG`<br>
+```
+echo $HELLO_MSG
+```
+In order to use this variable, we need to use `$` in fron of the variable<br>
+
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
