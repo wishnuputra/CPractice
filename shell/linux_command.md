@@ -118,7 +118,9 @@ The > symbol takes the result of a command and writes it directly to a file. It 
 
 ## 6. History
 `history` This command will show all the commands that we have entered.<br>
-To avoid command being saved in the history: Type space before typing the command
+To avoid command being saved in the history: Type space before typing the command.<br>
+<img width="277" height="120" alt="image" src="https://github.com/user-attachments/assets/1c078d4d-a10e-45ab-8ef5-d78c109a61b9" />
+
 
 ## Personal Notes:
 
