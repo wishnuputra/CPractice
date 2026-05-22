@@ -152,6 +152,10 @@ We can also capture the success result, by redirecting it to a file.<br>
 find / -name *.log 1> success.txt
 ```
 
+Now we can redirect all the result to files.<br>
+```
+find / -name *.log 1> successSecond.txt 2> errorSecond.txt
+```
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
