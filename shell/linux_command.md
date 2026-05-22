@@ -123,6 +123,12 @@ To avoid command being saved in the history: Type space before typing the comman
 `!188` This will execute command at line number 188 in the history.
 
 ## 7. Stream
+
+There are three types of streams:<br>
+1. stdin<br>
+2. stdout<br>
+3. sterr<br>
+
 ```
 find / -name *.log 
 ```
