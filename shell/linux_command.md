@@ -169,6 +169,7 @@ This will assign the literals `Hello World`into the variable `HELLO_MSG`<br>
 ```
 echo $HELLO_MSG
 ```
+
 In order to use this variable, we need to use `$` in fron of the variable<br>
 ```
 echo "Hi this is  $HELLO_MSG"
