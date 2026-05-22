@@ -122,6 +122,12 @@ To avoid command being saved in the history: Type space before typing the comman
 <img width="277" height="120" alt="image" src="https://github.com/user-attachments/assets/1c078d4d-a10e-45ab-8ef5-d78c109a61b9" />
 `!188` This will execute command at line number 188 in the history.
 
+## 7. Stream
+```
+find / -name *.log 2> /dev/null
+```
+The command above will find in root directory all files that has .log extension, then I want to capture standard error and redirect it to `/dev/null`
+
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
