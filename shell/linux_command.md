@@ -182,6 +182,9 @@ ls $MY_DIR
 ```
 This will print the directory etc using the variable<br>
 
+`env` will print the variables on this session<br>
+<img width="582" height="171" alt="image" src="https://github.com/user-attachments/assets/019233c8-82e1-495c-bffd-029abaf33014" />
+
 
 ## Personal Notes:
 
