@@ -139,9 +139,18 @@ To avoid seeing all these errors and just see the result that we have access to,
 ```
 find / -name *.log 2> /dev/null
 ```
-Executing this command will give clean result<br>
+Executing this command will give clean result. However the error message will be gone forever since we redirects it to `/dev/null`<br>
 <img width="727" height="117" alt="image" src="https://github.com/user-attachments/assets/96a34ffa-b646-48de-ba34-c4e67767b97c" />
 
+If we want to capture the error messages, we can redirect it to a file.<br>
+```
+find / -name *.log 2> error.txt
+```
+
+We can also capture the success result, by redirecting it to a file.<br>
+```
+find / -name *.log 1> success.txt
+```
 
 ## Personal Notes:
 
