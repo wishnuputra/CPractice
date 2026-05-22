@@ -125,9 +125,9 @@ To avoid command being saved in the history: Type space before typing the comman
 ## 7. Stream
 
 There are three types of streams:<br>
-1. stdin<br>
-2. stdout<br>
-3. sterr<br>
+0. stdin<br>
+1. stdout<br>
+2. sterr<br>
 
 ```
 find / -name *.log 
