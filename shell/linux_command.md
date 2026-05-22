@@ -156,6 +156,8 @@ Now we can redirect all the result to files.<br>
 ```
 find / -name *.log 1> successSecond.txt 2> errorSecond.txt
 ```
+
+`echo $?` will print the result value of the command that we have just executed. 0 means successfull. Any other value means failed.
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
