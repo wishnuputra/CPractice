@@ -191,6 +191,70 @@ export my_var="home sweet home"
 Now the variable that we just saved appears in the `env` session<br>
 
 
+## 9. Permission
+
+'''
+drwxrwxr-x
+'''
+
+'d' First section: type of file<br>
+'rwx' Second section: access right for myself<br>
+'rwx' Third section: access right for mygroup<br>
+'r-x' Fourth section: access right for others<br>
+
+'d' means directory<br>
+'-' means a file<br>
+'r' read<br>
+'w' write<br>
+'x' execute<br>
+
+'''
+-rw-rw-r-- 1 wishnuputra wishnuputra 14 23 mag 16.26 myscript.sh
+'''
+Example of adding and removing permission to 'myscript.sh'
+
+'''
+chmod +x myscript.sh
+'''
+This will add execute permission to all users in th three section to the myscript.sh<br>
+
+'''
+chmod -x myscript.sh
+'''
+This will remove execute permission to the myscript.sh<br>
+
+'''
+chmod u+x myscript.sh
+'''
+Now this only give execute permission to the user<br>
+
+'''
+chmod a+rwx myscript.sh
+'''
+This will give full access to everyone<br>
+
+'''
+chmod g-rwx myscript.sh
+'''
+Will remove group access to read, write, and execute<br>
+
+'''
+chmod o-rwx myscript.sh
+'''
+Remove read, write, and execute permission of other<br>
+
+'''
+chmod a-x AFolder
+'''
+Remove access to 'AFolder'. Now we cannot open this folder using 'cd AFolder'<br>
+
+'''
+chmod -w AFolder
+'''
+Remove write access of the 'AFolder'. We have access to it, but we cannot 'touch' or create new file inside that folder.<br>
+
+
+
 ## Personal Notes:
 
 `apt search package_name` will check if a certain package is available on APT<br>
