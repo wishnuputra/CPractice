@@ -261,6 +261,8 @@ Remove write access of the 'AFolder'. We have access to it, but we cannot 'touch
 
 ## 10. Check Resource Usage
 
+`free` shows how much ram is used<br>
+
 
 
 ## Personal Notes:
