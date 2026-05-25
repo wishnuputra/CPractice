@@ -263,6 +263,7 @@ Remove write access of the 'AFolder'. We have access to it, but we cannot 'touch
 
 `free` shows how much ram is used<br>
 `free -m` shows memory left in MB<br>
+`df` check how many storage left<br>
 
 
 
