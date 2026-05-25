@@ -6,6 +6,8 @@
 `ls /` lists the contents of your Root Directory<br>
 `ls /home` list the contents of your home folder<br>
 `clear` or `ctrl + l` to clear the screen<br>
+`ls g[a-m]???` list a file that has five characters start with g and the second character is from a until m<br>
+`ls g[!a-n]???` list a file that has five characters start with g and the second character does not contain letter from a until n<br>
 
 `ls -l` list the contents of a directory in a long list format and provide detail information of each file<br>
 `ls -l /home` long list your home directory<br>
