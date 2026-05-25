@@ -12,9 +12,12 @@
 `pwd` print working directory or your current directory<br>
 The sign `~$` means you are on the home directory<br>
 
-`cd ~` will bring you back to your home directory<br>
+`cd ~` or `cd`  will bring you back to your home directory<br>
 `cd /` will bring you the the root directory<br>
 `cd /home` will bring you to home directory<br>
+`cd -` back to previous directory
+`pushd directory_name` move into the directory and save that directory in the stack
+`popd` pop out the directory from the stack
 
 ### Meaning of colors
 <img width="344" height="174" alt="image" src="https://github.com/user-attachments/assets/c63215d2-d6b5-436f-9e2d-2cb69d20fc02" />
