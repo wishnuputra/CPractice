@@ -259,6 +259,8 @@ chmod -w AFolder
 ```
 Remove write access of the 'AFolder'. We have access to it, but we cannot 'touch' or create new file inside that folder.<br>
 
+## 10. Check Resource Usage
+
 
 
 ## Personal Notes:
