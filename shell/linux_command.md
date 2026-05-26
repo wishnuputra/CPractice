@@ -38,6 +38,10 @@ They are a permission<br>
 `-` is a file<br>
 `l` is a link<br>
 
+### Wildcards
+<img width="1081" height="192" alt="image" src="https://github.com/user-attachments/assets/0d8c0efa-b966-439f-b440-a5637e81362b" />
+
+
 ## 2. Basic File Editing
 `touch file_name` creates a file<br>
 if you use `touch` on a file that already exist, it will recreate the file with the same content<br>
