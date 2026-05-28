@@ -20,7 +20,7 @@ Searching only for regular files named gcc:<br>
 $ find /usr -type f -name gcc
 ```
 
-## Advanced find option
+## 1.1 Advanced find option
 
 Another good use of find is being able to run commands on the files that match your search criteria. The `-exec` option is used for this purpose.<br>
 ```
@@ -34,3 +34,10 @@ One can also use the `-ok` option, which behaves the same as `-exec`, except tha
 ```
 $ find -name "*.swp" -ok cat {} ';'
 ```
+
+## 1.2 Find based on time and size
+
+```
+$ find / -ctime 3
+```
+Here, `-ctime` is when the inode metadata (i.e. file ownership, permissions, etc.) last changed; it is often, but not necessarily, when the file was first created. You can also search for accessed/last read `-atime` or modified/last written `-mtime` times. The number is the number of days and can be expressed as either a number `n` that means exactly that value, `+n`, which means greater than that number, or `-n`, which means less than that number. There are similar options for times in minutes (as in `-cmin`, `-amin`, and `-mmin`).<br>
