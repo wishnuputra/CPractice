@@ -1,4 +1,4 @@
-# Find
+# 1. Find
 
 ```
 find
@@ -19,3 +19,5 @@ Searching only for regular files named gcc:<br>
 ```
 $ find /usr -type f -name gcc
 ```
+
+## Advanced find option
