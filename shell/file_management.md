@@ -21,3 +21,13 @@ $ find /usr -type f -name gcc
 ```
 
 ## Advanced find option
+
+Another good use of find is being able to run commands on the files that match your search criteria. The -exec option is used for this purpose.<br>
+```
+$ find -name "*.swp" -exec cat {} ';'
+```
+The {} (squiggly brackets) is a placeholder that will be filled with all the file names that result from the find expression, and the preceding command will be run on each one individually.<br>
+
+Please note that you have to end the command with either ';' (including the single-quotes) or \;. Both forms are fine.<br>
+
+One can also use the -ok option, which behaves the same as -exec, except that find will prompt you for permission before executing the command. This makes it a good way to test your results before blindly executing any potentially dangerous commands.<br>
