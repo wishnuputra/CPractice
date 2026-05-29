@@ -39,6 +39,10 @@ Show all folders that has only one depth.<br>
 ```
 find . -type d -maxdepth 1
 ```
+Find all files in the directory, then log them out.<br>
+```
+find . type f -exec grep -H log {} \;
+```
 
 ## 1.2 Find based on time and size
 
