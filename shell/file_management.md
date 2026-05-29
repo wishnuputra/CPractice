@@ -60,6 +60,11 @@ find / -ctime 3
 Here, `-ctime` is when the inode metadata (i.e. file ownership, permissions, etc.) last changed; it is often, but not necessarily, when the file was first created. You can also search for accessed/last read `-atime` or modified/last written `-mtime` times. The number is the number of days and can be expressed as either a number `n` that means exactly that value, `+n`, which means greater than that number, or `-n`, which means less than that number. There are similar options for times in minutes (as in `-cmin`, `-amin`, and `-mmin`).<br>
 
 ```
+find . -newer btmp
+```
+
+Finding based on file size<br>
+```
 find . -size 0
 ```
 ```
