@@ -1,6 +1,6 @@
-# 1. dpkg
+# 1. Low Level Package Management
 
-## Debian based
+## 1.1 dpkg
 
 List all package in the system:<br>
 ```
@@ -16,3 +16,5 @@ List all the files in the package bzip2:<br>
 ```
 dpkg --listfiles bzip2 | less
 ```
+
+#2. High Level Package Management
