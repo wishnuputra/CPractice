@@ -17,4 +17,10 @@ List all the files in the package bzip2:<br>
 dpkg --listfiles bzip2 | less
 ```
 
+## 1.2 Red Hat `rpm`
+
+```
+rpm -qa | grep bzip2
+```
+
 #2. High Level Package Management
