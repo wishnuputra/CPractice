@@ -41,14 +41,14 @@ find . -type d -maxdepth 1
 ```
 Find all files in the directory, then log them out.<br>
 ```
-find . type f -exec grep -H log {} \;
+find . -type f -exec grep -H log {} \;
 ```
 or we can use ls, which will list the information detail about each file.<br>
 ```
-find . type f -exec ls -l {} \;
+find . -type f -exec ls -l {} \;
 ```
 ```
-find . type f -ls
+find . -type f -ls
 ```
 
 
