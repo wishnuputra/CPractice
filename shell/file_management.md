@@ -43,6 +43,10 @@ Find all files in the directory, then log them out.<br>
 ```
 find . type f -exec grep -H log {} \;
 ```
+or we can use<br>
+```
+find . type f -exec ls -l {} \;
+```
 
 ## 1.2 Find based on time and size
 
