@@ -47,6 +47,10 @@ or we can use<br>
 ```
 find . type f -exec ls -l {} \;
 ```
+```
+find . type f -ls
+```
+
 
 ## 1.2 Find based on time and size
 
