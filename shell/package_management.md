@@ -1,6 +1,6 @@
 # 1. Low Level Package Management
 
-## 1.1 dpkg
+## 1.1 Debian based `dpkg`
 
 List all package in the system:<br>
 ```
