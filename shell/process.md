@@ -27,3 +27,7 @@ Terminate a job:<br>
 CTRL + C
 ```
 
+Resume suspended job:<br>
+`bg` to resume as background task.<br>
+`fg` to resume as foreground task.<br>
+
