@@ -50,3 +50,4 @@ kill -9 <pid>.
 `ps -l`<br>
 `ps -e`<br>
 `ps -elf`<br>
+`pstree`<br>
