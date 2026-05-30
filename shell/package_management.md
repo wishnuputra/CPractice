@@ -52,5 +52,8 @@ See the dependencies that bzip2 requires:<br>
 rpm -q --whatrequires bzip2
 ```
 
-
 #2. High Level Package Management
+
+```
+sudo dnf list *bzip2*
+```
