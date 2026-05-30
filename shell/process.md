@@ -34,3 +34,12 @@ Resume suspended job:<br>
 Show background job:<br>
 `jobs` or `jobs -l`
 
+## 3. Terminating process
+
+```
+kill -SIGKILL <pid>
+```
+or
+```
+kill -9 <pid>.
+```
