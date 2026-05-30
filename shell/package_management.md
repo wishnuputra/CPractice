@@ -54,6 +54,14 @@ rpm -q --whatrequires bzip2
 
 #2. High Level Package Management
 
+## Red Hat based
+
 ```
 sudo dnf list *bzip2*
+```
+
+## Debian based
+
+```
+apt-cache search package_name
 ```
