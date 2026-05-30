@@ -17,10 +17,28 @@ List all the files in the package bzip2:<br>
 dpkg --listfiles bzip2 | less
 ```
 
+
 ## 1.2 Red Hat `rpm`
 
+Query all the package, then look for a package named `bzip2`:<br>
 ```
 rpm -qa | grep bzip2
 ```
+
+Query all the packages then list the package named `bzip2` with information about the package:<br>
+```
+rpm -qil bzip2 | less
+```
+
+Give a detail listing of what is inside the package:<br>
+```
+ls -lF $(rpm -ql bzip2) | less
+```
+
+Trying to remove the package:<br>
+`--test` means we are just testing this command and will not execute it.<br>
+```
+sudo rpm -e --test bzip2
+
 
 #2. High Level Package Management
