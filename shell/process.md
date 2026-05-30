@@ -31,3 +31,6 @@ Resume suspended job:<br>
 `bg` to resume as background task.<br>
 `fg` to resume as foreground task.<br>
 
+Show background job:<br>
+`jobs` or `jobs -l`
+
