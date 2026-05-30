@@ -43,3 +43,10 @@ or
 ```
 kill -9 <pid>.
 ```
+
+### 4. Listing Process
+
+`ps aux`<br>
+`ps -l`<br>
+`ps -e`<br>
+`ps -elf`<br>
