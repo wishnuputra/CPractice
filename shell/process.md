@@ -51,3 +51,4 @@ kill -9 <pid>.
 `ps -e`<br>
 `ps -elf`<br>
 `pstree`<br>
+`top`<br>
