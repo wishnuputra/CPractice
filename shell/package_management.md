@@ -47,4 +47,10 @@ See what bzip2 package provides:<br>
 rpm -q --whatprovides bzip2
 ```
 
+See the dependencies that bzip2 requires:<br>
+```
+rpm -q --whatrequires bzip2
+```
+
+
 #2. High Level Package Management
