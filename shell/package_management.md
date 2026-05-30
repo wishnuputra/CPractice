@@ -42,5 +42,9 @@ sudo rpm -e --test bzip2
 ```
 <img width="941" height="168" alt="image" src="https://github.com/user-attachments/assets/c1303151-dcd8-42c4-b43d-cfee78dca880" />
 
+See what bzip2 package provides:<br>
+```
+rpm -q --whatprovides bzip2
+```
 
 #2. High Level Package Management
