@@ -39,6 +39,6 @@ Trying to remove the package:<br>
 `--test` means we are just testing this command and will not execute it.<br>
 ```
 sudo rpm -e --test bzip2
-
+```
 
 #2. High Level Package Management
