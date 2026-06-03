@@ -271,6 +271,7 @@ Remove write access of the 'AFolder'. We have access to it, but we cannot 'touch
 `free -m` shows memory left in MB<br>
 `df` check how many storage left<br>
 `df -h` check storage in human readable unit<br>
+`df -i` show how many i nodes in the storage<br>
 
 ## 11. Finding Files
 
