@@ -272,6 +272,7 @@ Remove write access of the 'AFolder'. We have access to it, but we cannot 'touch
 `df` check how many storage left<br>
 `df -h` check storage in human readable unit<br>
 `df -i` show how many i nodes in the storage<br>
+`uptime` show load average of the cpus
 
 ## 11. Finding Files
 
