@@ -299,9 +299,15 @@ $ find /usr -type f -name gcc
 
 ## Personal Notes:
 
-`apt search package_name` will check if a certain package is available on APT<br>
+```
+apt search package_name
+```
+Will check if a certain package is available on APT<br>
 
-
+```
+setterm --blank 1
+```
+Turn the screen blank after 1 minutes<br>
 
 
 
