@@ -296,6 +296,16 @@ Searching only for regular files named gcc:<br>
 $ find /usr -type f -name gcc
 ```
 
+## 12. Creating VM Template
+
+After cloning a VM using template. If we are unable to connect remotely the VM using SSH. Please check folder `/etc/ssh/`, if there is no ssh_host_key we need to generate them.<br>
+```
+sudo ssh_keygen -A
+```
+This will generate new ssh key for that specific VM. Then restart the ssh server.
+```
+sudo systemctl restart ssh
+```
 
 ## Personal Notes:
 
