@@ -82,3 +82,11 @@ SELECT User, Host, plugin, authentication_string FROM mysql.user WHERE User='fal
 ```
 FLUSH PRIVILEGES;
 ```
+
+```
+GRANT SELECT ON *.* TO 'readonlyuser'@'localhost' IDENTIFIED BY 'password'; 
+```
+
+```
+DROP USER 'username'@localhost;
+```
