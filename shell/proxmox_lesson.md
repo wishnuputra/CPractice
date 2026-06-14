@@ -64,3 +64,21 @@ Then apply these changes
 ```
 sudo netplan apply
 ```
+
+## 2. Creating Database Server
+
+```
+CREATE USER 'admin'@'%' IDENTIFIED BY 'password';
+```
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%';
+```
+
+```
+SELECT User, Host, plugin, authentication_string FROM mysql.user WHERE User='falkon';
+```
+
+```
+FLUSH PRIVILEGES;
+```
