@@ -40,5 +40,24 @@ This will generate new ssh key for that specific VM. Then restart the ssh server
 sudo systemctl restart ssh
 ```
 
+### 4. Set static IP address
 
+Open the yaml file inside folder `/etc/netplan`.<br>
+```
+ls -l /etc/netplan/50-cloud-init.yaml
+```
+First backup this file. Then set the new static ip address there.<br>
+```
+network:
+  version: 2
+  ethernets:
+    ens18:
+      addresses:
+        - 192.168.1.110/24
+      routes:
+        - to: default
+          via: 192.168.1.1
+      nameservers:
+        addresses: [192.168.1.1]
+```
 
