@@ -67,6 +67,16 @@ sudo netplan apply
 
 ## 2. Creating Database Server
 
+Note: when creating new user, make sure the password is not the same as root. Otherwise the user will not work.<br>
+
+```
+sudo mariadb
+```
+
+```
+mariadb -u admin -p
+```
+
 ```
 CREATE USER 'admin'@'%' IDENTIFIED BY 'password';
 ```
@@ -89,4 +99,8 @@ GRANT SELECT ON *.* TO 'readonlyuser'@'localhost' IDENTIFIED BY 'password';
 
 ```
 DROP USER 'username'@localhost;
+```
+
+```
+DROP USER IF EXISTS 'johndoe'@'localhost', 'janedoe'@'%', 'testuser'@'192.168.1.50';
 ```
