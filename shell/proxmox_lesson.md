@@ -60,4 +60,7 @@ network:
       nameservers:
         addresses: [192.168.1.1]
 ```
-
+Then apply these changes
+```
+sudo netplan apply
+```
