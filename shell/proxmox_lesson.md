@@ -26,4 +26,19 @@ Make sure that cloud-init is added to the boot order of your VM.<br>
 
 <img width="639" height="261" alt="image" src="https://github.com/user-attachments/assets/38a3d8fc-b724-49d3-ab9e-24429fad05d6" />
 
+### 3. Failed to activate SSH
+
+<img width="828" height="376" alt="image" src="https://github.com/user-attachments/assets/b8601a82-5585-44ca-a454-3b538b086d61" />
+
+To overcome the above errors, we need to regenerate new ssh key.<br>
+Please check folder `/etc/ssh/`. If there is no ssh_host_key, we need to generate them.<br>
+```
+sudo ssh_keygen -A
+```
+This will generate new ssh key for that specific VM. Then restart the ssh server.
+```
+sudo systemctl restart ssh
+```
+
+
 
