@@ -9,10 +9,21 @@ This will generate new ssh key for that specific VM. Then restart the ssh server
 sudo systemctl restart ssh
 ```
 
-### Troubleshooting
+## Troubleshooting
+
+### 1. SSH connection issue
 
 When connecting to VM using ssh. If change the ip address of our VM, we might need to remove the recorded ssh key.<br>
 ```
 ssh-keygen -f ~/.ssh/known_hosts -R "192.168.1.101"
 ```
+
+### 2. Cloud-init failed to set Static IP address
+
+Make sure that cloud-init is added to the boot order of your VM.<br>
+
+<img width="512" height="26" alt="image" src="https://github.com/user-attachments/assets/3544eb25-df26-42e1-ac62-b4a4d1587bf2" />
+
+<img width="639" height="261" alt="image" src="https://github.com/user-attachments/assets/38a3d8fc-b724-49d3-ab9e-24429fad05d6" />
+
 
