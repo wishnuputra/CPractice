@@ -65,7 +65,9 @@ Then apply these changes
 sudo netplan apply
 ```
 
-## 2. Creating Database Server
+## 2. Managing Database Server
+
+### Adding User Account
 
 Note: when creating new user, make sure the password is not the same as root. Otherwise the user will not work.<br>
 
@@ -103,4 +105,72 @@ DROP USER 'username'@localhost;
 
 ```
 DROP USER IF EXISTS 'johndoe'@'localhost', 'janedoe'@'%', 'testuser'@'192.168.1.50';
+```
+
+### Creating Database
+
+```
+CREATE DATABASE mysampledb;
+```
+
+```
+SHOW DATABASES;
+```
+
+Add user and grant access only to specific db.<br>
+```
+GRANT SELECT ON mysampledb.* TO 'appuser'@'localhost' IDENTIFIED BY 'password'; 
+```
+
+```
+SHOW GRANTS FOR 'appuser'@'localhost';
+```
+
+```
+DELETE FROM mysql.user WHERE user='myuser' AND host='localhost';
+```
+
+```
+USE mysampledb;
+```
+
+```
+CREATE TABLE Employees (Name char(15), Age int(3), Occupation char(15));
+```
+
+```
+SHOW COLUMNS IN Employees;
+```
+
+```
+INSERT INTO Employees VALUES ('Joe Smith', '26', 'Ninja');
+```
+
+```
+SELECT * FROM Employees;
+```
+
+```
+DELETE FROM Employees WHERE Name = 'Joe Smith'; 
+```
+
+```
+DROP TABLE Employees; 
+```
+
+```
+DROP DATABASE mysampledb; 
+```
+
+Backup a database.<br>
+
+```
+mysqldump -u admin -p --databases mysampledb > mysampledb.sql
+
+```
+
+Restoring a database.<br>
+
+```
+sudo mariadb -u admin -p < mysampledb.sql 
 ```
